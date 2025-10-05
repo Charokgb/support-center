@@ -1,6 +1,0 @@
-[
-  { "slug": "wallet", "name": "Wallet", "description": "Guides for using your wallet and transactions." },
-  { "slug": "account", "name": "Account", "description": "Account settings, verification and profiles." },
-  { "slug": "security", "name": "Security", "description": "Keeping your account safe." },
-  { "slug": "exchange", "name": "Exchange", "description": "Buying, selling and trading." }
-]
