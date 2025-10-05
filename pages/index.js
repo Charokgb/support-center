@@ -13,7 +13,7 @@ export default function Home() {
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-5xl mx-auto p-6">
         <header className="flex items-center justify-between mb-8">
-          <h1 className="text-3xl font-bold">Support Center</h1>
+          <h1 className="text-3xl font-bold">Blockchain Support Center</h1>
           <nav>
             <Link href="/submit"><a className="px-3 py-2 rounded bg-blue-600 text-white">Submit request</a></Link>
           </nav>
