@@ -2,7 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body, #__next { height: 100%; }
-body { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; }
+html, body, #__next { 
+  height: 100%; 
+}
 
-.prose p { margin-bottom: 1rem; }
+body { 
+  font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; 
+
+  /* 👇 Add your background image here */
+  background-image: url('/background.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.prose p { 
+  margin-bottom: 1rem; 
+}
