@@ -1,7 +1,9 @@
 module.exports = {
   content: ["./pages/**/*.{js,jsx}", "./components/**/*.{js,jsx}", "./data/**/*.{js,json}", "./public/**/*.html"],
   theme: {
-    extend: {},
+    extend: {backgroundImage: {
+        'custom-bg': "url('/background.jpg')",
+      },},
   },
   plugins: [],
 }
