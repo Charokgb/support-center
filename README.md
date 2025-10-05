@@ -1,4 +1,4 @@
-# Support Center — Next.js Replica
+# Blockchain Support Center — Next.js Replica
 
 A minimal replica of a help-center site built with Next.js and Tailwind CSS.
 
