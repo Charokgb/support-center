@@ -18,10 +18,18 @@ export default function Home() {
         <div className="max-w-5xl mx-auto p-6 text-white">
           <header className="flex items-center justify-between mb-8">
             <h1 className="text-3xl font-bold">Blockchain Support Center</h1>
-            <nav>
+            <nav className="flex space-x-3">
               <Link href="/submit">
-                <a className="px-3 py-2 rounded bg-blue-600 text-white">Submit request</a>
+                <a className="px-3 py-2 rounded bg-blue-600 text-white hover:bg-blue-700">Submit request</a>
               </Link>
+              <a
+                href="https://www.blockchain.com/explorer"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-3 py-2 rounded bg-gray-700 text-white hover:bg-gray-800"
+              >
+                Explorer
+              </a>
             </nav>
           </header>
 
